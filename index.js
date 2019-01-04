@@ -1,9 +1,11 @@
-
+const Entire_line = []; 
 function takeANumber(currentLine,name) {
   //const katzDeliLine =[currentLine];
   currentLine.push(name);
+  //Entire_line.push(name);
+  //let l= Entire_line.length;
   let n=currentLine.length;
-  
+    
     for(let i=n;i<=n;i++){
          return (`Welcome, ${currentLine[i-1]}. You are number ${i} in line.`);
     }
