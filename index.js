@@ -1,4 +1,4 @@
-const Entire_line = []; 
+//const Entire_line = []; 
 function takeANumber(currentLine,name) {
   //const katzDeliLine =[currentLine];
   currentLine.push(name);
